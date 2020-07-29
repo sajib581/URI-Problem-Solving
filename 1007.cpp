@@ -2,10 +2,16 @@
 using namespace std ;
 
 int main(){
-    ios_base::sync_with_stdio(false)
+    ios_base::sync_with_stdio(false) ;
     cin.tie(NULL);
 
+    int A,B,C,D ;
 
+    cin>>A>>B>>C>>D ;
+
+    int result = A * B - C * D ;
+
+    cout<<"DIFERENCA = "<<result<<endl ;
 
     return 0 ;
 }
