@@ -6,8 +6,10 @@ int main(){
     ios_base::sync_with_stdio(false) ;
     cin.tie(NULL);
 
-    //<<fixed<<setprecision(2)
-    //getline(cin,name)
+    float a,b ;
+    cin>>a>>b ;
+    float result = a/b ;
 
+    cout<<fixed<<setprecision(3)<<result<<" km/l"<<endl ;
     return 0 ;
 }
