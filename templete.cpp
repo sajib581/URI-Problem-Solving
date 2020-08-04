@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-#include<iostream>
+
 using namespace std ;
 
 int main(){
@@ -8,6 +8,9 @@ int main(){
 
     //<<fixed<<setprecision(2)
     //getline(cin,name)
+    //getchar() ;
+    //strlen(b) C
+    //int len = str.size() C++
 
     return 0 ;
 }
