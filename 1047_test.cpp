@@ -13,27 +13,21 @@ int main(){
         return 0 ;
     }
 
-    if(m2<m1){
-        m2= m2+60;
+    int st_min = h1*60+m1 ;
+    int end_min = h2*60+m2 ;
 
-        h1++ ;
-        if(h2<h1){
-        h2=h2+12 ;
-        }
+    if(end_min<st_min){
+        end_min = 24*60 + end_min ;
     }
-    if(h2<h1){
-        h2=h2+12 ;
-    }
-    m =m2-m1 ;
-    h =h2-h1 ;
-
-    if(m<1||h>24){
-        return 0 ;
-    }
+    int total_min = end_min - st_min ;
+    h = total_min/60 ;
+    m = total_min%60 ;
     cout<<"O JOGO DUROU "<<h<<" HORA(S) E "<<m<<" MINUTO(S)"<<endl ;
+
 
 
 
     return 0 ;
 }
+
 
