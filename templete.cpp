@@ -10,6 +10,8 @@ int main(){
     //getchar() ;
     //strlen(b) C
     //int len = str.size() [in string] C++
+    //int m = x.length();
+    //int n = y.length();
 
     return 0 ;
 }

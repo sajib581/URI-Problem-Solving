@@ -6,7 +6,7 @@ int main(){
     int T ;
     cin>>T ;
     getchar() ;
-    for(int cas = 0; cas<=T; cas++){
+    for(int cas = 0; cas<T; cas++){
         string text ;
     getline(cin,text) ;
 
