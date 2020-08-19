@@ -9,7 +9,7 @@ int main(){
     //getline(cin,name)
     //getchar() ;
     //strlen(b) C
-    //int len = str.size() C++
+    //int len = str.size() [in string] C++
 
     return 0 ;
 }
